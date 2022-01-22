@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+<head>
+	<meta charset="utf-8">
+	<title>Newsspot</title>
+</head>
+<style type="">
+	nav {
+  		background-color: lavender;
+  		align-content: right;
+  		font-family: verdana;
+  		font-size: 20px;
+  	}
+  	li{
+  		margin-left: 10px;
+  		margin-right: 20px;
+  		list-style: none;
+
+  	}
+  	li:hover{
+  		background-color: magenta;
+  		border-radius: 15px;
+  	}
+  	a{
+  		text-decoration: none;
+  	}
+  	body{
+  		background-color: #c9c8fd;
+  		
+  	}
+
+  	h3{
+  		font-size: 20px;
+  	}
+  	.fa-3x{
+  		color: white;
+  		text-shadow: 1px 1px 12px white, 0 0 25px white, 0 0 5px darkblue;
+
+  		
+  	}
+  	#a{
+  		text-decoration: none;
+  		font-size: 20px;
+  		font-weight: bold;
+  		color:white;
+  		font-family: verdana;
+  	}
+  	.fa-angle-double-right,.fa-dot-circle,.fa-clock,.hm,.fa-envelope{
+  		color: red;
+
+  	}
+  	.cf
+{
+		box-shadow:  1px 1px 21px white, 0 0 25px white, 0 0 5px white;
+}
+    @media only screen and (max-width: 320px ) and (min-width: 0px) {
+  .images {
+  width:250px ;
+  height: 220px;
+    
+  }
+  .topimg{
+    width: 320px;
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 375px ) and (min-width: 320px) {
+  .images {
+  width:250px ;
+  height: 220px;
+    
+  }
+  .c1,.c11{
+  	width: 260px;
+  }
+}
+@media only screen and (max-width: 425px ) and (min-width: 375px) {
+  .images {
+  width:325px ;
+  height: 220px;
+    
+  }
+   .c1,.c11{
+  	width: 320px;
+  }
+}
+@media only screen and (max-width: 768px ) and (min-width: 425px) {
+  .images {
+  width:355px ;
+  height: 220px;
+    
+  }
+   .c1,.c11{
+  	width: 370px;
+  }
+}
+@media only screen and (max-width: 1024px ) and (min-width: 768px) {
+  .images{
+  width:164px ;
+  height: 120px;
+    
+  }
+   .c1{
+  	width: 400px;
+  }
+  .c11{
+  	width: 200px;
+  }
+}
+@media only screen and (max-width: 1240px ) and (min-width: 1024px) {
+  .topimg {
+  width:1024px ;
+  height: 320px;
+    
+  }
+ .images {
+  width:250px ;
+  height: 120px;
+    
+  }
+  .c1{
+  	width: 530px;
+  }
+  .c11{
+  	width: 220px;
+  }
+
+}
+@media only screen and (max-width: 1724px ) and (min-width: 1240px) {
+ .images {
+  width:270px ;
+  height: 140px;
+    
+  }
+   .c1{
+  	width: 680px;
+  	height: 300px;
+  }
+  .c11{
+  	width: 270px;
+  }
+ 
+
+}
+</style>
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+			<img src="logo7.png" class="navbar-brand" height="70"  style="border-radius: 70px; " ><span style="font-weight: bold;color:white;font-family: verdana;font-size: 20px;  text-shadow: 1px 1px 2px black, 0 0 5px blue, 0 0 5px darkblue;">NEWS SPOT</span>
+ 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-sm-end" id="navbarSupportedContent">
+  
+				<li class="nav-item" style="background-color: blue;color: white;border-radius: 10px; ">
+
+					<a href="index.html" class="nav-link" style="color: white; "><i class="fas fa-home"></i>&nbspHOME</a>
+				</li>
+
+				<li class="nav-item">
+					<a href="india.html" class="nav-link">INDIA</a>
+				</li>
+
+				
+
+
+				<li class="nav-item">
+					<a class="nav-link" href="world.html" >WORLD</a>
+					
+				</li>
+
+				<li class="nav-item">
+					<a href="business.html" class="nav-link">BUSINESS</a>
+				</li>
+
+				<li class="nav-item">
+					<a href="tech.html" class="nav-link">TECH</a>
+				</li>
+
+			 <li class="nav-item dropdown "style="border-radius: 20px; ">
+      <a class="nav-link dropdown-toggle"  href="#" id="navbardrop" data-toggle="dropdown">
+        SPORTS
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="cricket.html">CRICKET</a>
+        <a class="dropdown-item" href="footbal.html">FOOTBALL</a>
+        <a class="dropdown-item" href="tennis.html">TENNIS</a>
+      </div>
+    </li>
+
+				<li class="nav-item">
+					<a href="magazines.html" class="nav-link">MAGAZINE</a>
+				</li>
+			</ul>
+
+</div>
+</nav>
+
+<body><br><br><br><br><br>
+<div class="container">
+	<div class="row">
+		<div class="col-2 text-center bg-danger bg"><p style="font-size: 30px;font-weight: bold; ">LIVE</p></div>
+		<div class="col-sm-8 text-center"><marquee width="100%" direction="left" height="50px" style="background-color: yellow;text-align: center;color:black;font-size: 30px; ">
+
+
+Oxygen Express train carrying 98 tonnes of medical oxygen reaches Bengaluru
+<br>
+</marquee></div>
+	</div>
+</div>
+<br><br><br>
+<div class="container">
+<div class="row">
+	<div class="col-sm-8">
+		<div class="container bg bg-light border border-danger">
+			
+
+
+			<div class="row">
+			<div class="col-sm-12">
+				<br>
+				<img src="104.webp" class="c1" >
+    
+	<h4>New 'Delta plus' SARS-CoV-2 variant identified. Is it a concern for India?</h4>
+			</div>
+		</div>
+<br><br>
+
+<div class="row">
+	<div class="col-sm-6">
+						
+
+						<img src="105.webp" class="c11" >
+    
+						<h3>
+Punjab village comes together to build mosque for its 4 Muslim families
+Punjab village comes together to build mosque for its 4 Muslim families</h3>
+		</div>
+		<div class="col-sm-6">
+			<img src="106.webp" class="c11" >
+    
+			<h3>
+Man transporting cattle killed by mob in Rajasthan’s Chittorgarh district; 9 arrested</h3>
+		</div>
+</div>
+<br><br>
+		</div>
+		
+	</div>
+
+
+
+	<div class="col-sm-4">
+		<div class="container bg-light bg border border-danger pre-scrollable" style="padding-bottom: 40px; ">
+			<div class="text-center "><h4>TOP STORIES</h4></div>
+<hr>
+<a href="#">Delhi HC orders blocking of tweets, posts accusing India Today of ‘Islamophobia’</a>
+<hr>
+ <a href="">Coronavirus LIVE: India's active Covid cases dip below 10 lakh</a>
+<hr>
+<a href="#">
+HC restrains Twitter handle from making defamatory posts against AajTak on social media
+</a>
+<hr>
+<a href="#">
+PM huddles with Union ministers, BJP chief; cabinet reshuffle likely soon
+</a>
+<hr>
+<a href="">
+Caught on camera: Speeding Mahindra Xylo flips atop bridge
+</a>
+<hr>
+<a href="">
+Best of 3 World Test Championship final not realistic: ICC
+</a>
+<hr>
+<a href="">Kerala: Materials to make explosive found in Kollam district</a>
+<hr>
+		</div>
+		<br><br>
+		<div class="container bg bg-light border border-danger">
+			<br>
+			<div class="text-center bg bg-success" style="border-radius: 20px;  "><h4>MAGAZINE</h4></div>
+			 <img src="96.webp"  class="d-none d-sm-block" width="180px;" style=" margin-left: 30px; ">
+
+	
+			 <h3>Covid vaccination: The race against time</h3>
+			 <hr>
+			 <a href="magazines.html" style="margin-left: 100px; font-size: 22px; text-decoration: none; ">Load more<i class="fas fa-angle-double-right"></i></a>
+			 
+		</div>
+	</div>
+</div>
+<br>
+<div class="row">
+	<div class="col-sm-4">
+		<div class="container bg bg-light bg-light">
+			<br>
+			<div class="text-center bg bg-primary" style="border-radius: 20px;  "><h4>SPORTS</h4></div>
+			<img src="107.webp" class="images">
+			<br><br>
+			<h3>Rahul Dravid will coach Indian team on Sri Lanka tour: BCCI president Sourav Ganguly</h3>
+			<br>
+			<hr>
+			 <a href="cricket.html" style="margin-left: 100px; font-size: 22px; text-decoration: none; ">Load more<i class="fas fa-angle-double-right"></i></a>
+		</div>
+	</div>
+
+	<div class="col-sm-4">
+		<div class="container bg bg-light bg-light">
+			<br>
+			<div class="text-center " style="border-radius: 20px;background-color:magenta;  "><h4>TECH</h4></div>
+			<img src="108.webp" class="images">
+			<br><br>
+			<h3>Twitter may soon rollout unmention feature to let users leave a conversation</h3>
+			<br>
+			<hr>
+			 <a href="tech.html" style="margin-left: 100px; font-size: 22px; text-decoration: none; ">Load more<i class="fas fa-angle-double-right"></i></a>
+		</div>
+	</div>
+	<div class="col-sm-4">
+		<div class="container bg bg-light bg-light">
+			<br>
+			<div class="text-center " style="border-radius: 20px;background-color:magenta;  "><h4>BUSINESS</h4></div>
+			<img src="26.webp" class="images">
+			<br><br>
+			<h3>Petrol and Diesel prices hike again in India| Check city-wise latest rates here</h3>
+			<br>
+			<hr>
+			 <a href="business.html" style="margin-left: 100px; font-size: 22px; text-decoration: none; ">Load more<i class="fas fa-angle-double-right"></i></a>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+
+
+</body>
+
+<br><br>
+
+
+
+
+
+<footer>
+	<div class="container-fluid cf" style="background-color:indigo; ">
+		<br><br>
+		<div class="row" style="padding-bottom: 20px; ">
+			<div class="col-sm-4" style="margin-left: 10px; " >
+				<img src="logo7.png" class="navbar-brand" width="90" height="70" style="border-radius: 100px; " ><span style="font-weight: bold;color:lightblue;font-family: verdana;font-size: 30px;  text-shadow: 1px 1px 2px black, 0 0 5px blue, 0 0 5px darkblue;">NEWS SPOT</span>
+<br>
+<br>
+				<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="index.html">HOME</a>
+				<br>
+				<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="india.html">INDIA</a>
+				<br>
+				<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="world.html">WORLD</a>
+				<br>
+				<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="business.html">BUSINESS</a>
+				<br>
+
+			</div>
+			<div class="col-sm-3">
+	<br>
+				<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="tech.html">TECH</a>
+				<br><br>
+				<p style="font-size: 25px;font-weight: bold; color: darkgray; ">SPORTS</p>
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="cricket.html">CRICKET</a>
+				<br>
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="footbal.html">FOOTBALL</a>
+				<br>
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="tennis.html">TENNIS</a>
+				<br>
+				<br>
+			<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="magazines.html">MAGAZINES</a>
+				<br>
+			</div>
+			<br>
+			<div class="col-sm-4 ">
+				<br>
+				<h4 style="background-color: lightblue;border-radius: 100px;text-align: center;color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; ">FOLLOW US</h4><br>
+				<div class="text-center " style="margin-top: 70px; ">
+				<a target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-3x"></i></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a target="_blank"  href="https://www.facebook.com/"><i class="fab fa-facebook fa-3x"></i></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				<a target="_blank"  href="https://twitter.com/?lang=en"><i class="fab fa-twitter fa-3x"></i></a>&nbsp
+				<br>
+				<br>
+						
+			</div>
+			<br>
+<br>
+		</div>
+		
+	</div>
+
+
+	<div class="row" style="background-color: lightblue; ">
+			<div class="col-sm-12 text-center">
+				<br>
+			
+				<p style="font-weight:bold;font-size: 20px;">Copyright ©2021 All rights reserved | NEWS SPOT</p>
+				<br>
+			</div>
+		</div>
+		</div><br>
+</footer>
+
+</html>
+
+
+
+
+
+
+
+
+
+
