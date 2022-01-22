@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+<head>
+	<meta charset="utf-8">
+	<title>Newsspot</title>
+</head>
+<style type="">
+body{
+ background-image: linear-gradient(to right,lavenderblush, rgba(255,0,0,0),blue);
+
+
+ }
+
+  nav {
+      background-color: lavender;
+      align-content: right;
+      font-family: verdana;
+      font-size: 20px;
+
+    }
+    li{
+      margin-left: 10px;
+      margin-right: 20px;
+      list-style: none;
+      
+    }
+    li:hover{
+      background-color: magenta;
+      border-radius: 15px;
+    }
+    #i1{
+      letter-spacing: 15px;
+      font-size: 50px;
+
+    }
+    .images:hover {
+  transform: scale(1.2); 
+}
+.container{
+    box-shadow:  1px 1px 21px black, 0 0 25px blue, 0 0 5px white;
+
+}
+.d-sm-block d-md-none
+{
+  width: 310px;
+}
+    @media only screen and (max-width: 320px ) and (min-width: 0px) {
+  .images {
+  width:290px ;
+  height: 220px;
+    
+  }
+  .topimg{
+    width: 320px;
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 375px ) and (min-width: 320px) {
+  .images {
+  width:290px ;
+  height: 220px;
+    
+  }
+}
+@media only screen and (max-width: 425px ) and (min-width: 375px) {
+  .images {
+  width:345px ;
+  height: 220px;
+    
+  }
+}
+@media only screen and (max-width: 768px ) and (min-width: 425px) {
+  .images {
+  width:395px ;
+  height: 220px;
+    
+  }
+}
+@media only screen and (max-width: 1024px ) and (min-width: 768px) {
+  .images{
+  width:664px ;
+  height: 220px;
+    
+  }
+}
+@media only screen and (max-width: 1240px ) and (min-width: 1024px) {
+  .topimg {
+  width:1024px ;
+  height: 320px;
+    
+  }
+  .col-sm-2,.images {
+  width:164px ;
+  height: 120px;
+    
+  }
+
+}
+@media only screen and (max-width: 1724px ) and (min-width: 1240px) {
+ .images {
+  width:140px ;
+  height: 140px;
+    
+  }
+ 
+
+}
+    
+
+    #a{
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+      color:white;
+      font-family: verdana;
+    }
+    .fa-angle-double-right,.fa-dot-circle,.fa-clock,.hm,.fa-envelope{
+      color: red;
+
+    }
+    .cf
+{
+    box-shadow:  1px 1px 21px white, 0 0 25px white, 0 0 5px white;
+}
+</style>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+  <img src="logo7.png" class="navbar-brand" height="70"  style="border-radius: 70px; " ><span style="font-weight: bold;color:white;font-family: verdana;font-size: 20px;  text-shadow: 1px 1px 2px black, 0 0 5px blue, 0 0 5px darkblue;">NEWS SPOT</span>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <li class="nav-item">
+
+          <a href="index.html" class="nav-link"><i class="fas fa-home"></i>&nbspHOME</a>
+        </li>
+
+       <li class="nav-item bg bg-primary"style="border-radius: 20px; ">
+          <a href="india.html" class="nav-link " style="color:white; ">INDIA</a>
+        </li>
+
+
+        
+
+
+        <li class="nav-item">
+          <a class="nav-link" href="world.html" >WORLD</a>
+          
+        </li>
+
+        <li class="nav-item">
+          <a href="business.html" class="nav-link">BUSINESS</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="tech.html" class="nav-link">TECH</a>
+        </li>
+
+        <li class="nav-item dropdown "style="border-radius: 20px; ">
+      <a class="nav-link dropdown-toggle"  href="#" id="navbardrop" data-toggle="dropdown">
+        SPORTS
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="cricket.html">CRICKET</a>
+        <a class="dropdown-item" href="footbal.html">FOOTBALL</a>
+        <a class="dropdown-item" href="tennis.html">TENNIS</a>
+      </div>
+    </li>
+        
+
+        <li class="nav-item">
+          <a href="magazines.html" class="nav-link">MAGAZINE</a>
+        </li>
+      </ul>
+
+</div>
+</nav>
+<body>
+	
+  <br><br><br><br>
+
+    <div class="text-center" style="background-color: lavender;font-size: 100px;box-shadow:  1px 1px 21px magenta, 0 0 25px cyan , 0 0 5px white;border: 8px solid white;
+"> <span style="font-weight: bold;color:white;font-family: verdana;font-size: 80px;  text-shadow: 1px 1px 12px black, 0 0 15px blue, 0 0 15px darkblue;">INDIA</span>        
+        </li></div>
+<br><br>
+<br><br><br>
+<div class="container bg bg-light border border-primary">
+  <br>
+   <div class="row ">
+  <div class="col-sm-2">
+    <img src="17.webp" class="images" >
+    
+  </div>
+  <div class="col-10">
+    <h4>Tamil Nadu CM MK Stalin urges Jal Shakti Minister to ensure release of Cauvery water</h4>
+    MK Stalin wrote a letter to Jal Shakti Minister, urging him to advise the Cauvery Water Management Authority to ensure the release the river water as per the directions of the Supreme Court.
+  </div>
+ </div>
+
+<br>
+<br>
+ <div class="row ">
+  <div class="col-sm-2">
+    <img src="18.webp" class="images" >
+    
+  </div>
+  <div class="col-10">
+    <h4>
+Prashant Kishor not made NCP's strategist, met Sharad Pawar to 'unite' opposition: Nawab Malik</h4>
+    This was Prashant Kishor's first meeting with Sharad Pawar after the victory of the DMK and the TMC in the assembly elections in Tamil Nadu and West Bengal, respectively.
+  </div>
+ </div>
+
+<br>
+ <br>
+ <div class="row ">
+  <div class="col-sm-2">
+    <img src="19.webp" class="images" >
+   
+  </div>
+  <div class="col-10">
+    <h4>Dominica High Court denies Mehul Choksi bail, deems him 'flight risk'</h4>
+    The Dominica High Court has denied fugitive businessman Mehul Choksi bail on account of him being a 'flight risk'.
+  </div>
+ </div>
+
+
+<br>
+ <br>
+ <div class="row ">
+  <div class="col-sm-2">
+    <img src="20.webp"  class="images">
+    
+  </div>
+  <div class="col-10">
+    <h4>‘What a coincidence, all 3 election commissioners from UP’: Congress leader Raj Babbar</h4>
+    Congress leader Raj Babbar on Thursday took to Twitter to say that it was quite a coincidence that all three election commissioners have a connection to Uttar Pradesh.
+  </div>
+ </div>
+
+<br>
+ <br>
+ <div class="row ">
+  <div class="col-sm-2">
+    <img src="21.webp" class="images" >
+    
+  </div>
+  <div class="col-10">
+    <h4>Did not provide home vaccination to senior politician: BMC tells Bombay HC </h4>
+    BMC on Friday told the Bombay HC that it was not the civic body that administered Covid vaccine dose to a senior politician at his home in April and sought a week's time to find out at whose instructions was it done.
+  </div>
+ </div>
+
+<br>
+ <br>
+ <div class="row ">
+  <div class="col-sm-2">
+    <img src="22.webp" class="images" >
+    
+  </div>
+  <div class="col-10">
+    <h4>Farmers to gherao all Raj Bhavans across country on June 26: Kisan Morcha</h4>
+    The farmers will gherao all Raj Bhavans across the country on June 26, to mark seven months of their protest against the Centre's three farm laws.
+  </div>
+ </div>
+ <br>
+
+ <br>
+ <div class="row ">
+  <div class="col-sm-2">
+    <img src="23.webp" class="images" >
+    
+  </div>
+  <div class="col-10">
+    <h4>May records second highest rainfall in 121 years, IMD says</h4>
+    At 34.18 degrees Celsius, the average maximum temperature over India this May was the fourth lowest since 1901, the weather office said.
+  </div>
+ </div>
+
+ <br>
+ <br>
+ <div class="row ">
+  <div class="col-sm-2">
+    <img src="24.webp" class=" images" >
+    
+  </div>
+  <div class="col-10">
+    <h4>External Affairs Minister S Jaishankar holds meeting with India's envoys to Gulf nations</h4>
+    Jaishankar, who arrived in Kuwait on his first bilateral visit to the oil-rich Gulf nation early on Thursday, also unveiled a bust of Mahatma Gandhi at the Indian Embassy in Kuwait in presence of the ambassadors.
+  </div>
+ </div>
+   <br><br>
+   <ul class="pagination justify-content-center pagination">
+  
+  <li class="page-item active"><a class="page-link" href="
+    ">1</a></li>
+  <li class="page-item"><a class="page-link" href="">2</a></li>
+  <li class="page-item"><a class="page-link" href="#">3</a></li>
+  <li class="page-item"><a class="page-link" href="world1.html">Next</a></li>
+</ul>
+</div>
+<br>
+</body>
+<br><br>
+
+
+
+
+<footer>
+  <div class="container-fluid cf" style="background-color:indigo; ">
+    <br><br>
+    <div class="row" style="padding-bottom: 20px; ">
+      <div class="col-sm-4" style="margin-left: 10px; " >
+        <img src="logo7.png" class="navbar-brand" width="90" height="70" style="border-radius: 100px; " ><span style="font-weight: bold;color:lightblue;font-family: verdana;font-size: 30px;  text-shadow: 1px 1px 2px black, 0 0 5px blue, 0 0 5px darkblue;">NEWS SPOT</span>
+<br>
+<br>
+        <i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="index.html">HOME</a>
+        <br>
+        <i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="india.html">INDIA</a>
+        <br>
+        <i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="world.html">WORLD</a>
+        <br>
+        <i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="business.html">BUSINESS</a>
+        <br>
+
+      </div>
+      <div class="col-sm-3">
+  <br>
+        <i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="tech.html">TECH</a>
+        <br><br>
+        <p style="font-size: 25px;font-weight: bold; color: darkgray; ">SPORTS</p>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="cricket.html">CRICKET</a>
+        <br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="footbal.html">FOOTBALL</a>
+        <br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="tennis.html">TENNIS</a>
+        <br>
+        <br>
+      <i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="magazines.html">MAGAZINES</a>
+        <br>
+      </div>
+      <br>
+      <div class="col-sm-4 ">
+        <br>
+        <h4 style="background-color: lightblue;border-radius: 100px;text-align: center;color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; ">FOLLOW US</h4><br>
+        <div class="text-center " style="margin-top: 70px; ">
+        <a target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-3x"></i></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a target="_blank"  href="https://www.facebook.com/"><i class="fab fa-facebook fa-3x"></i></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a target="_blank"  href="https://twitter.com/?lang=en"><i class="fab fa-twitter fa-3x"></i></a>&nbsp
+        <br>
+        <br>
+            
+      </div>
+      <br>
+<br>
+    </div>
+    
+  </div>
+
+
+  <div class="row" style="background-color: lightblue; ">
+      <div class="col-sm-12 text-center">
+        <br>
+      
+        <p style="font-weight:bold;font-size: 20px;">Copyright ©2021 All rights reserved | NEWS SPOT</p>
+        <br>
+      </div>
+    </div>
+    </div><br>
+</footer>
+</html>
