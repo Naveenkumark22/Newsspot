@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+	<meta charset="utf-8">
+	<title>Newsspot</title>
+</head>
+<style type="">
+body{
+background-color:rgb(136, 1, 255);
+  }
+  nav {
+      background-color: lavender;
+      align-content: right;
+      font-family: verdana;
+      font-size: 20px;
+    }
+    li{
+      margin-left: 10px;
+      margin-right: 20px;
+      list-style: none
+    }
+    li:hover{
+      background-color: magenta;
+      border-radius: 15px;
+    }
+    #i1{
+      letter-spacing: 15px;
+      font-size: 50px;
+
+    }
+       .images:hover {
+  transform: scale(1.2); 
+}
+    
+    
+    h3{
+      font-size: 20px;
+    }
+    .fa-3x{
+      color: white;
+      text-shadow: 1px 1px 12px white, 0 0 25px white, 0 0 5px darkblue;
+
+      
+    }
+    #a{
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+      color:white;
+      font-family: verdana;
+    }
+    .fa-angle-double-right,.fa-dot-circle,.fa-clock,.hm,.fa-envelope{
+      color: red;
+
+    }
+    .cf
+{
+    box-shadow:  1px 1px 21px white, 0 0 25px white , 0 0 5px white;
+}
+.container{
+    box-shadow:  1px 1px 21px white, 0 0 25px white, 0 0 65px white;
+  
+
+}
+    @media only screen and (max-width: 320px ) and (min-width: 0px) {
+  .images {
+  width:290px ;
+  height: 220px;
+    
+  }
+  .topimg{
+    width: 320px;
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 375px ) and (min-width: 320px) {
+  .images {
+  width:290px ;
+  height: 220px;
+    
+  }
+}
+@media only screen and (max-width: 425px ) and (min-width: 375px) {
+  .images {
+  width:345px ;
+  height: 220px;
+    
+  }
+}
+@media only screen and (max-width: 768px ) and (min-width: 425px) {
+  .images {
+  width:395px ;
+  height: 220px;
+    
+  }
+}
+@media only screen and (max-width: 1024px ) and (min-width: 768px) {
+  .images{
+  width:664px ;
+  height: 220px;
+    
+  }
+}
+@media only screen and (max-width: 1240px ) and (min-width: 1024px) {
+  .topimg {
+  width:1024px ;
+  height: 320px;
+    
+  }
+  .col-sm-2,.images {
+  width:164px ;
+  height: 120px;
+    
+  }
+
+}
+@media only screen and (max-width: 1724px ) and (min-width: 1240px) {
+ .images {
+  width:140px ;
+  height: 140px;
+    
+  }
+ 
+
+}
+
+#a{
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+      color:white;
+      font-family: verdana;
+    }
+    .fa-angle-double-right,.fa-dot-circle,.fa-clock,.hm,.fa-envelope{
+      color: red;
+
+    }
+    .cf
+{
+    box-shadow:  1px 1px 21px white, 0 0 25px white, 0 0 5px white;
+}
+</style>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+  <img src="logo7.png" class="navbar-brand" height="70"  style="border-radius: 70px; " ><span style="font-weight: bold;color:white;font-family: verdana;font-size: 20px;  text-shadow: 1px 1px 2px black, 0 0 5px blue, 0 0 5px darkblue;">NEWS SPOT</span>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <li class="nav-item">
+
+          <a href="home.html" class="nav-link"><i class="fas fa-home"></i>&nbspHOME</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="india.html" class="nav-link">INDIA</a>
+        </li>
+
+        <li class="nav-item bg bg-primary"style="border-radius: 20px; ">
+          <a href="world.html" class="nav-link " style="color:white; ">WORLD</a>
+        </li>
+
+
+       
+        <li class="nav-item">
+          <a href="business.html" class="nav-link">BUSINESS</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="tech.html" class="nav-link">TECH</a>
+        </li>
+
+       
+        <li class="nav-item dropdown "style="border-radius: 20px; ">
+      <a class="nav-link dropdown-toggle"  href="#" id="navbardrop" data-toggle="dropdown">
+        SPORTS
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="cricket.html">CRICKET</a>
+        <a class="dropdown-item" href="footbal.html">FOOTBALL</a>
+        <a class="dropdown-item" href="tennis.html">TENNIS</a>
+      </div>
+    </li>
+        
+
+        <li class="nav-item">
+          <a href="magazines.html" class="nav-link">MAGAZINE</a>
+        </li>
+      </ul>
+
+</div>
+</nav>
+<body>
+ 
+<br><br><br><br>
+<div class="text-center" style="background-color: cyan;font-size: 100px;box-shadow:  1px 1px 21px white, 0 0 5px white, 0 0 45px white;border: 8px solid white;
+"> <span style="font-weight: bold;color:white;font-family: verdana;font-size: 50px;  text-shadow: 1px 1px 12px black, 0 0 12px blue, 0 0 15px darkblue;">WORLD</span>        
+        </li></div>
+<br><br><br><br>
+<div class="container bg bg-light  border border-info">
+ <div class="row" style="margin-top: 20px; ">
+ 	<div class="col-sm-2">
+ 		<img src="1.webp" class="images">
+ 	
+ 	</div>
+ 	<div class="col-9">
+ 		<h4>G7 Summit 2021: Top 10 likely developments around climate change</h4>
+ 		With the Cop 26 summit scheduled to be held in Glasgow later this year, the Cornwall summit will have a crucial role in setting the agenda for the next six months.
+ 	</div>
+ </div>
+<br>
+
+<br>
+  <div class="row ">
+ 	<div class="col-sm-2">
+ 		<img src="4.webp" class="images" >
+ 		
+ 	</div>
+ 	<div class="col-9">
+ 		<h4>Russia to supply Iran with advanced satellite: Report</h4>
+ 		Russia to supply Iran with advanced satellite: Report
+ 	</div>
+ </div>
+ <br> 
+
+ <br>
+ <div class="row ">
+  <div class="col-sm-2">
+    <img src="3.jpeg" class="images">
+    
+  </div>
+  <div class="col-9">
+    <h4>Ex-Mossad chief signals Israel behind Iran nuclear attacks</h4>
+    Among the major attacks to target Iran, none have struck deeper than two explosions over the last year at its Natanz nuclear facility.
+  </div>
+ </div>
+ <br>
+
+ <br>
+ <div class="row ">
+  <div class="col-sm-2">
+    <img src="5.webp" class="images">
+  </div>
+  <div class="col-9">
+    <h4>Explainer: What will change under Israel’s new government?</h4>
+    Israel will elect a new government, ending Prime Minister Benjamin Netanyahu's record 12-year reign. The next government, led by ultranationalist Naftali Bennett, has promised to forge a new path toward healing the country's divisions and re-establishing normalcy.
+  </div>
+ </div>
+ <br>
+
+
+ <br>
+ <div class="row ">
+  <div class="col-sm-2">
+    <img src="6.webp" class="images" >
+  
+  </div>
+  <div class="col-9">
+    <h4>Boris Johnson expects G7 to donate 1 billion Covid vaccines to poorer countries</h4>
+    The UK Prime Minister has already called on G7 leaders to commit to vaccinate the entire world by the end of 2022 and the group is expected to pledge 1 billion doses during its three-day summit in the English seaside resort of Carbis Bay.
+  </div>
+ </div>
+
+ <br>
+ <br>
+ <div class="row ">
+  <div class="col-sm-2">
+    <img src="7.webp" class="images">
+    
+  </div>
+  <div class="col-9">
+    <h4>Senior monk among 12 killed in Myanmar military plane crash</h4>
+    A well-known senior Buddhist monk was among 12 people who died in a military plane crash in Myanmar on Thursday.
+  </div>
+ </div>
+
+ <br>
+ <br>
+ <div class="row ">
+  <div class="col-sm-2">
+    <img src="8.webp" class="images" >
+    
+  </div>
+  <div class="col-9">
+    <h4>China's highest producer inflation in over 12 years highlights global price pressures</h4>
+    China's producer price index (PPI) increased 9%, the National Bureau of Statistics (NBS) said on Wednesday, as prices bounced back from last year's pandemic lows.
+  </div>
+ </div>
+
+<br>
+ <br>
+ 
+
+   <ul class="pagination justify-content-center pagination">
+
+  <li class="page-item active"><a class="page-link" href="world.html
+    ">1</a></li>
+  <li class="page-item"><a class="page-link" href="world1.html">2</a></li>
+  <li class="page-item"><a class="page-link" href="#">3</a></li>
+  <li class="page-item"><a class="page-link" href="world1.html">Next</a></li>
+</ul>
+<br>
+  </div>
+<br>
+</body>
+</body>
+
+<br><br>
+<footer>
+  <div class="container-fluid cf" style="background-color:indigo; ">
+    <br><br>
+    <div class="row" style="padding-bottom: 20px; ">
+      <div class="col-sm-4" style="margin-left: 10px; " >
+        <img src="logo7.png" class="navbar-brand" width="90" height="70" style="border-radius: 100px; " ><span style="font-weight: bold;color:lightblue;font-family: verdana;font-size: 30px;  text-shadow: 1px 1px 2px black, 0 0 5px blue, 0 0 5px darkblue;">NEWS SPOT</span>
+<br>
+<br>
+        <i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="index.html">HOME</a>
+        <br>
+        <i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="india.html">INDIA</a>
+        <br>
+        <i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="world.html">WORLD</a>
+        <br>
+        <i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="business.html">BUSINESS</a>
+        <br>
+
+      </div>
+      <div class="col-sm-3">
+  <br>
+        <i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="tech.html">TECH</a>
+        <br><br>
+        <p style="font-size: 25px;font-weight: bold; color: darkgray; ">SPORTS</p>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="cricket.html">CRICKET</a>
+        <br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="footbal.html">FOOTBALL</a>
+        <br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="tennis.html">TENNIS</a>
+        <br>
+        <br>
+      <i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="magazines.html">MAGAZINES</a>
+        <br>
+      </div>
+      <br>
+      <div class="col-sm-4 ">
+        <br>
+        <h4 style="background-color: lightblue;border-radius: 100px;text-align: center;color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; ">FOLLOW US</h4><br>
+        <div class="text-center " style="margin-top: 70px; ">
+        <a target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-3x"></i></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a target="_blank"  href="https://www.facebook.com/"><i class="fab fa-facebook fa-3x"></i></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a target="_blank"  href="https://twitter.com/?lang=en"><i class="fab fa-twitter fa-3x"></i></a>&nbsp
+        <br>
+        <br>
+            
+      </div>
+      <br>
+<br>
+    </div>
+    
+  </div>
+
+
+  <div class="row" style="background-color: lightblue; ">
+      <div class="col-sm-12 text-center">
+        <br>
+      
+        <p style="font-weight:bold;font-size: 20px;">Copyright ©2021 All rights reserved | NEWS SPOT</p>
+        <br>
+      </div>
+    </div>
+    </div><br>
+</footer>
+
+</html>

@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+	<meta charset="utf-8">
+	<title>Newsspot</title>
+</head>
+<style type="">
+body{
+  background-color: rgb(95, 218, 221);
+  background-repeat: no-repeat;
+
+
+
+  }
+  nav {
+      background-color: lavender;
+      align-content: right;
+      font-family: verdana;
+      font-size: 20px;
+
+      
+    }
+    li{
+      margin-left: 10px;
+      margin-right: 20px;
+      list-style: none
+    }
+    li:hover{
+      background-color: magenta;
+      border-radius: 15px;
+    }
+    #i1{
+      letter-spacing: 15px;
+      font-size: 50px;
+
+    }
+       .images:hover {
+  transform: scale(1.2); 
+}
+    
+      h3{
+      font-size: 20px;
+    }
+    .fa-3x{
+      color: white;
+      text-shadow: 1px 1px 12px white, 0 0 25px white, 0 0 5px darkblue;
+
+      
+    }
+    #a{
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+      color:white;
+      font-family: verdana;
+    }
+    .fa-angle-double-right,.fa-dot-circle,.fa-clock,.hm,.fa-envelope{
+      color: red;
+
+    }
+
+    .cf
+{
+    box-shadow:  1px 1px 21px white, 0 0 25px white, 0 0 5px white;
+}
+.container{
+   box-shadow:  1px 1px 21px white, 0 0 55px white, 0 0 65px white;
+}
+    @media only screen and (max-width: 320px ) and (min-width: 0px) {
+  .images {
+  width:290px ;
+  height: 220px;
+    
+  }
+  .topimg{
+    width: 320px;
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 375px ) and (min-width: 320px) {
+  .images {
+  width:290px ;
+  height: 220px;
+    
+  }
+}
+@media only screen and (max-width: 425px ) and (min-width: 375px) {
+  .images {
+  width:345px ;
+  height: 220px;
+    
+  }
+}
+@media only screen and (max-width: 768px ) and (min-width: 425px) {
+  .images {
+  width:395px ;
+  height: 220px;
+    
+  }
+}
+@media only screen and (max-width: 1024px ) and (min-width: 768px) {
+  .images{
+  width:664px ;
+  height: 220px;
+    
+  }
+}
+@media only screen and (max-width: 1240px ) and (min-width: 1024px) {
+  .topimg {
+  width:1024px ;
+  height: 320px;
+    
+  }
+  .col-sm-2,.images {
+  width:164px ;
+  height: 120px;
+    
+  }
+
+}
+@media only screen and (max-width: 1724px ) and (min-width: 1240px) {
+ .images {
+  width:140px ;
+  height: 140px;
+    
+  }
+ 
+#a{
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+      color:white;
+      font-family: verdana;
+    }
+    .fa-angle-double-right,.fa-dot-circle,.fa-clock,.hm,.fa-envelope{
+      color: red;
+
+    }
+    .cf
+{
+    box-shadow:  1px 1px 21px white, 0 0 25px white, 0 0 5px white;
+}
+
+}
+</style>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+  <img src="logo7.png" class="navbar-brand" height="70"  style="border-radius: 70px; " ><span style="font-weight: bold;color:white;font-family: verdana;font-size: 20px;  text-shadow: 1px 1px 2px black, 0 0 5px blue, 0 0 5px darkblue;">NEWS SPOT</span>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <li class="nav-item">
+
+          <a href="index.html" class="nav-link"><i class="fas fa-home"></i>&nbspHOME</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="india.html" class="nav-link">INDIA</a>
+        </li>
+         <li class="nav-item">
+          <a href="world.html" class="nav-link">WORLD</a>
+        </li>
+       
+
+
+       
+        <li class="nav-item">
+          <a href="business.html" class="nav-link">BUSINESS</a>
+        </li>
+
+       
+
+         <li class="nav-item bg bg-primary"style="border-radius: 20px; ">
+          <a href="tech.html" class="nav-link " style="color:white; ">TECH</a>
+        </li>
+
+     
+        <li class="nav-item dropdown "style="border-radius: 20px; ">
+      <a class="nav-link dropdown-toggle"  href="#" id="navbardrop" data-toggle="dropdown">
+        SPORTS
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="cricket.html">CRICKET</a>
+        <a class="dropdown-item" href="footbal.html">FOOTBALL</a>
+        <a class="dropdown-item" href="tennis.html">TENNIS</a>
+      </div>
+    </li>
+        <li class="nav-item">
+          <a href="magazines.html" class="nav-link">MAGAZINE</a>
+        </li>
+      </ul>
+
+</div>
+</nav>
+<body>
+  
+  
+<br><br><br>
+
+<br>
+    <div class="text-center" style="background-color: lavender;font-size: 100px;box-shadow:  1px 1px 21px magenta, 0 0 25px cyan , 0 0 5px white;border: 8px solid white;
+"> <span style="font-weight: bold;color:white;font-family: verdana;font-size: 40px;  text-shadow: 1px 1px 12px black, 0 0 15px blue, 0 0 15px darkblue;">TECHNOLOGY</span>        
+        </li></div>
+
+<br>
+<br><br><br>
+<div class="container bg bg-light border border-primary">
+	<br>
+ <div class="row ">
+  <div class="col-sm-2">
+    <img src="40.jpg" class="images" >
+    
+  </div>
+  <div class="col-10">
+    <h4>Elon Musk says Tesla Model S Plaid sounds better than Sony PS5</h4>
+    Elon Musk compared the Tesla Model S Plaid’s entertainment system to the performance of a Sony PS5 and said its 22-speaker sound system offers a home theater-like experience
+  </div>
+ </div>
+
+
+<br>
+ <div class="row ">
+  <div class="col-sm-2">
+    <img src="41.webp" class="images" >
+   
+  </div>
+  <div class="col-10">
+    <h4>Amazon, Flipkart destroyed Kirana stores, says CAIT</h4>
+    A day after Karnataka HC gave CCI a go ahead with a probe against Amazon and Flipkart for their alleged anti-competitive practices, CAIT said that these e-commerce companies have destroyed traditional Kirana and small merchants.
+  </div>
+ </div>
+
+ <br>
+ <div class="row ">
+  <div class="col-sm-2">
+    <img src="42.webp" class="images">
+   
+  </div>
+  <div class="col-10">
+    <h4>Apple is going to allow users to sign up without passwords using Face, Touch ID</h4>
+    Apple had announced in the Worldwide Developers Conference (WWDC) last year that it is going to allow you to sign in to websites on Safari using Face ID and Touch ID. Now, they are taking that a step further and are introducing passwordless sign-ups. Announced in a developer session called “Move beyond passwords”, Apple introduced something they call Passkeys. These Passkeys will allow you to sign up for services without any passwords. “Despite their prevalence, passwords inherently come with challenges that make them poorly suited to securing someone's online accounts,” Apple explained. 
+  </div>
+ </div>
+
+ <br>
+ <div class="row ">
+  <div class="col-sm-2">
+    <img src="43.webp" class="images" >
+   
+  </div>
+  <div class="col-10">
+    <h4>Bills that could force Big Tech companies to breakup unveiled in House</h4>
+    It concluded that the four tech giants have abused their market power by charging excessive fees, imposing tough contract terms and extracting valuable data from individuals and businesses that rely on them. 
+  </div>
+ </div>
+<br>
+ <br>
+ <div class="row ">
+  <div class="col-sm-2">
+    <img src="44.webp" class="images" >
+   
+  </div>
+  <div class="col-10">
+    <h4>Samsung Galaxy M32 images, specs revealed ahead of launch</h4>
+    Samsung Galaxy M32 is expected to launch in India soon. The smartphone has been rumoured for quite some time, anad its support page has also gone live on Samsung India’s website. The official images of Galaxy M32 have now gone live on the Samsung Mobile Press website, and its specifications have also been leaked.
+  </div>
+ </div>
+<br>
+ <br>
+ <div class="row ">
+  <div class="col-sm-2">
+    <img src="45.webp" class="images">
+   
+  </div>
+  <div class="col-10">
+    <h4>OnePlus Summer Launch Event set to unveil a 5G smartphone and 4K TV</h4>
+    The month of June has seen a few smartphone and TV launches by companies like Poco and iQoo in 5G space. Adding to the varied options available in the market will be the OnePlus Nord CE 5G smartphone and the OnePlus TV U1S, which are all set to be unveiled on June 10 during the OnePlus Summer Launch Event.
+  </div>
+ </div>
+<br>
+ <br>
+ <div class="row ">
+  <div class="col-sm-2">
+    <img src="46.webp" class="images" >
+   
+  </div>
+  <div class="col-10">
+    <h4>Samsung Galaxy Book Go, Galaxy Book Go 5G laptops launched: Check specs, price</h4>
+    Samsung today launched the Galaxy Book Go and Galaxy Book Go 5G laptops. The Galaxy Book Go comes with Wi-Fi and LTE, and is powered by the Qualcomm Snapdragon 7c Gen 2 processor. The Galaxy Book Go 5G has the more powerful Qualcomm Snapdragon 8cx Gen 2 processor running under its hood.
+  </div>
+ </div>
+<br>
+<br>
+ <div class="row ">
+  <div class="col-sm-2">
+    <img src="47.webp" class="images" >
+    
+  </div>
+  <div class="col-10">
+    <h4>Microsoft to reveal the ‘next generation of Windows’ on June 24</h4>
+    Microsoft may have shelved its plans for Windows 10X, a special version of its operating system designed for new computers with multiple screens that was supposed to launch this year, but the company’s plans to launch the next generation of Windows are right on track and will be revealed at a special event later this month.
+  </div>
+ </div>
+<br>
+
+
+ <br>
+ <div class="row ">
+  <div class="col-sm-2">
+    <img src="48.webp" class="images" >
+   
+  </div>
+  <div class="col-10">
+    <h4>HP completes the acquisition of HyperX</h4>
+    HP on Tuesday announced the competition of its acquisition of HyperX, the gaming division of Kingston Technology Company. The company had announced the acquisition in February this year. The deal is said to be worth $425 million.
+  </div>
+ </div>
+
+<br>
+ <br>
+ <div class="row ">
+  <div class="col-sm-2">
+    <img src="49.webp" class="images" ">
+    
+  </div>
+  <div class="col-10">
+    <h4>Asus Expertbook B9400 laptop review: It keeps getting better</h4>
+    Brand: Asus<br>
+    Product: Expertbook B9400<br>
+    Key specs: 14-inch LED full HD display, 11th gen Intel core processor, Harman Kardon, NumPad 2.0, 16GB of RAM, 65Wh battery, HD camera with privacy shutter, fingerprint sensor
+  </div>
+ </div>
+
+<br>
+ <br>
+ <div class="row ">
+  <div class="col-sm-2">
+    <img src="50.webp" class="images" >
+   
+  </div>
+  <div class="col-10">
+    <h4>Gionee smartwatches launched in India; prices start at ₹2,099</h4>
+    Smartwatches have become virtually ubiquitous. Among the youngsters it has become a rage indeed.Smartwatches are generally pricey, but Gionee is one of the companies that have set out to change that a little. The company has launched a budget smartwatch series in India. The newly launched STYLFIT smartwatch series consists of three smartwatches. The Gionee STYLFIT GSW7 is available in India at a launch price of ₹2,099, while the STYLFIT GSW6 is available in India at a starting price of ₹6,999. The third model, STYLFIT GSW8, is available in India at a launch price of ₹8,999.
+  </div>
+ </div>
+
+<br>
+<br>
+ <div class="row ">
+  <div class="col-sm-2">
+    <img src="51.webp" class="images" >
+  
+  </div>
+  <div class="col-10">
+    <h4>Apple WWDC 2021: watchOS 8 announced with improved Photos, Fitness+, GIF support and more</h4>
+    Apple WWDC 2021: At its annual developer conference on Monday, Apple announced the latest update to its Apple Watch operating system, watchOS 8. The new update will bring support for an improved Breath app, better image support for watch faces, Photo — and even GIF support while responding to messages.
+  </div>
+ </div>
+
+ <br>
+ <br>
+ <div class="row ">
+  <div class="col-sm-2">
+  <img src="52.webp" class="images" >
+   
+  </div>
+  <div class="col-10">
+    <h4>Facebook smartwatch will feature two cameras, detachable display: </h4>
+    It was reported earlier this year that Facebook is working on a smartwatch. The Facebook smartwatch will reportedly let users send messages and it will also offer health and fitness features. It looks like the Facebook smartwatch is actually happening according to new details on the product revealed by The Verge. Facebook is reportedly planning to launch the smartwatch next summer.
+  </div>
+ </div>
+ <br><br>
+
+
+ <ul class="pagination justify-content-center pagination">
+  
+  <li class="page-item active"><a class="page-link" href="tech.html
+    ">1</a></li>
+  <li class="page-item"><a class="page-link" href="#">2</a></li>
+  <li class="page-item"><a class="page-link" href="#">3</a></li>
+  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+</ul>
+<br>
+
+
+</div>
+
+
+</body>
+
+<br><br>
+
+
+<footer>
+  <div class="container-fluid cf" style="background-color:indigo; ">
+    <br><br>
+    <div class="row" style="padding-bottom: 20px; ">
+      <div class="col-sm-4" style="margin-left: 10px; " >
+        <img src="logo7.png" class="navbar-brand" width="90" height="70" style="border-radius: 100px; " ><span style="font-weight: bold;color:lightblue;font-family: verdana;font-size: 30px;  text-shadow: 1px 1px 2px black, 0 0 5px blue, 0 0 5px darkblue;">NEWS SPOT</span>
+<br>
+<br>
+        <i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="index.html">HOME</a>
+        <br>
+        <i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="india.html">INDIA</a>
+        <br>
+        <i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="world.html">WORLD</a>
+        <br>
+        <i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="business.html">BUSINESS</a>
+        <br>
+
+      </div>
+      <div class="col-sm-3">
+  <br>
+        <i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="tech.html">TECH</a>
+        <br><br>
+        <p style="font-size: 25px;font-weight: bold; color: darkgray; ">SPORTS</p>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="cricket.html">CRICKET</a>
+        <br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="footbal.html">FOOTBALL</a>
+        <br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="tennis.html">TENNIS</a>
+        <br>
+        <br>
+      <i class="fas fa-angle-double-right"></i>&nbsp&nbsp<a id="a" href="magazines.html">MAGAZINES</a>
+        <br>
+      </div>
+      <br>
+      <div class="col-sm-4 ">
+        <br>
+        <h4 style="background-color: lightblue;border-radius: 100px;text-align: center;color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; ">FOLLOW US</h4><br>
+        <div class="text-center " style="margin-top: 70px; ">
+        <a target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-3x"></i></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a target="_blank"  href="https://www.facebook.com/"><i class="fab fa-facebook fa-3x"></i></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a target="_blank"  href="https://twitter.com/?lang=en"><i class="fab fa-twitter fa-3x"></i></a>&nbsp
+        <br>
+        <br>
+            
+      </div>
+      <br>
+<br>
+    </div>
+    
+  </div>
+
+
+  <div class="row" style="background-color: lightblue; ">
+      <div class="col-sm-12 text-center">
+        <br>
+      
+        <p style="font-weight:bold;font-size: 20px;">Copyright ©2021 All rights reserved | NEWS SPOT</p>
+        <br>
+      </div>
+    </div>
+    </div><br>
+</footer>
+
+</html>
